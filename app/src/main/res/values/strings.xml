@@ -1,0 +1,102 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_menu">Menu</string>
+    <string name="action_settings">Opciones</string>
+    <string name="logo_content_description">Logo de aplicación</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button_hint">Ingresar</string>
+    <string name="user_hint">Usuario</string>
+    <string name="required_field">Campo requerido</string>
+    <string name="main_activity_label">Mi Escritorio</string>
+    <string name="newpassword_activity_label">Cambio de contraseña</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_change_password">Cambiar contraseña</string>
+    <string name="action_exit">Salir</string>
+    <string name="progress_dialog_message">Cargando…</string>
+    <string name="login_form_bad_credentials_message">Datos incorrectos</string>
+    <string name="update_module_error">Error actualizando módulos</string>
+    <string name="conection_error">Error actualizando módulos, %1$s</string>
+    <string name="forgot_password_text">¿Olvidó su contraseña?</string>
+    <string name="fav_module_text">Favoritos</string>
+    <string name="msg_no_local">Usted no se encuentra en algún local registrado</string>
+    <string name="empty" />
+    <string name="no_data">-</string>
+    <string name="drag_here">Arrastra aqui tus favoritos</string>
+    <string name="favorite_container">fav</string>
+    <string name="local_location">%1$s %2$s %3$s</string>
+    <string name="permission_denied">La aplicación no tiene permisos para acceder</string>
+    <string name="gps_permission_denied">a su localización </string>
+    <string name="progressbar_loading_alerts">Cargando</string>
+    <string name="empty_alert_list">Lista vacía</string>
+    <string name="main_back_again">Por favor, haga clic en ATRÁS nuevamente para salir</string>
+    <string name="error_start_app_option">Error al iniciar aplicación</string>
+    <string name="error_get_corp_token">Error al obtener datos para iniciar aplicación</string>
+
+    <!-- splash -->
+    <string name="application_update_error">No es posible actualizar la app</string>
+
+    <!-- Snackbar msg -->
+    <string name="snackbar_error_get_locals">Error obteniendo locales (%1s)</string>
+    <string name="snackbar_error_add_favorite">Favorito ya agregado</string>
+    <string name="snackbar_error_db_store_favorite">Error al agregar favorito localmente</string>
+    <string name="snackbar_error_store_favorite">Error al agregar favorito, por favor intente nuevamente (%1s)</string>
+    <string name="snackbar_retry">REINTENTAR</string>
+    <string name="snackbar_error_no_internet">Error de conexión a internet</string>
+    <string name="no_internet">verifique conexión</string>
+    <string name="empty_response">No data</string>
+    <string name="start_app_error">Error al ingresar a la aplicación</string>
+
+    <!-- toast msg -->
+    <string name="toast_change_password_success">Cambio de clave se realizó correctamente</string>
+
+    <!-- alert dialog -->
+    <string name="loading_message">Iniciando aplicación</string>
+    <string name="dialog_accept">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_send">Enviar</string>
+
+    <!-- favorites -->
+    <string name="delete_message_title">Eliminar favoritos</string>
+    <string name="delete_message_subject">¿Está seguro que desea eliminar los favoritos seleccionados?</string>
+
+    <!-- change password -->
+    <string name="forgot_password_dialog_title">Restablecer contraseña</string>
+    <string name="forgot_password_dialog_username">Usuario:</string>
+    <string name="forgot_password_dialog_username_error">Usuario no válido, por favor consulte con su administrador.</string>
+    <string name="forgot_password_dialog_question_username">Usuario:</string>
+    <string name="forgot_password_dialog_question">Pregunta secreta:</string>
+    <string name="forgot_password_dialog_question_new">Cambiar</string>
+    <string name="forgot_password_dialog_question_answer"><font size="15">Respuesta</font></string>
+    <string name="forgot_password_dialog_question_email">Email:</string>
+    <string name="forgot_password_dialog_question_error">Respuesta incorrecta</string>
+    <string name="forgot_password_no_mail">El usuario %1$s no posee correo para realizar esta acción, por favor consulte con su administrador.</string>
+    <string name="forgot_password_dialog_success">Clave temporal enviada a su correo %1$s</string>
+    <string name="forgot_password_no_questions">El usuario %1$s no posee preguntas de seguridad, por favor consulte con su administrador.</string>
+
+    <!-- logout -->
+    <string name="log_out_title_alert">Cerrar sesión</string>
+    <string name="log_out_description_alert">¿Está seguro que desea salir de su sesión?</string>
+
+    <!-- change password -->
+    <string name="change_pass_description">BBBB</string>
+    <string name="change_user_old_pass">Contraseña anterior</string>
+    <string name="change_user_temp_pass">Contraseña temporal</string>
+    <string name="change_user_new_pass">Nueva contraseña</string>
+    <string name="change_user_confirm_new_pass">Confirmar nueva contraseña</string>
+    <string name="change_user_button_hint">Actualizar</string>
+    <string name="change_user_not_equal_field">La nueva contraseña no debe ser igual a la anterior</string>
+    <string name="change_user_new_different_password">Las contraseñas no coinciden</string>
+    <string name="change_user_different_password">La nueva contraseña deben ser diferente a la anterior</string>
+    <string name="change_user_error_bundle">Error al obtener datos, por favor vuelva a intentarlo</string>
+    <string name="change_user_relogin">Por favor inicie sesión con los nuevos datos</string>
+    <string name="change_user_description_forgotpass">Por su seguridad le pedimos que cambie su contraseña</string>
+    <string name="change_user_description_changepass">Por favor ingrese su contraseña actual y una contraseña nueva para realizar el actualización</string>
+    <string name="change_user_progress_text">Cambio de contraseña..</string>
+    <string name="login_progress_text">Incio de sesión..</string>
+    <string name="ws_error">Error al obtener datos, por favor vuelva a intentarlo. %1$d</string>
+    <string name="ws_error_forgot_password">No existe el usuario ingresado</string>
+    <string name="ws_change_pass_error">Contraseña incorrecta</string>
+</resources>

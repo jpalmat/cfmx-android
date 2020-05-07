@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llFooter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ec.com.smx.kcommonspreferences.UFooterViewVersionIP
+        android:id="@+id/llFooterData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:hide_ip="true" />
+
+</LinearLayout>

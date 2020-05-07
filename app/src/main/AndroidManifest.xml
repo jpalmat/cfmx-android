@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ec.com.smx.cfmx">
+
+    <!-- Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Gps -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Permission: Writing to SDCard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name="ec.com.smx.cfmx.CFMxApplication"
+        android:allowBackup="false"
+        tools:replace="android:allowBackup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/KThemeFunctionary">
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2fc6f4e8f15195fb364aee88cca75029cb29eef2" />
+
+        <activity
+            android:name="ec.com.smx.cfmx.ui.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/KThemeFunctionary.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ec.com.smx.cfmx.ui.activity.MainActivity"
+            android:label="@string/main_activity_label"
+            android:screenOrientation="portrait"
+            android:theme="@style/KThemeFunctionary.NoActionBar" />
+        <activity
+            android:name="ec.com.smx.cfmx.ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/KThemeFunctionary.NoActionBar" />
+        <activity
+            android:name="ec.com.smx.cfmx.ui.activity.NewPasswordActivity"
+            android:label="@string/newpassword_activity_label"
+            android:screenOrientation="portrait"
+            android:theme="@style/KThemeFunctionary.NoActionBar" />
+    </application>
+
+</manifest>

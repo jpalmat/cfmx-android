@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "641312175988",
+    "firebase_url": "https://cfmx-dev.firebaseio.com",
+    "project_id": "cfmx-dev",
+    "storage_bucket": "cfmx-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641312175988:android:47e5e900631804d6",
+        "android_client_info": {
+          "package_name": "ec.com.smx.cfmx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641312175988-95jts1tkmidbaugr4b2ml7ubuaf1vh9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyVdhsYYxhIz2ZUjr-MAT8qMSDvyHsDKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
